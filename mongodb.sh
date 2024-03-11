@@ -1,5 +1,5 @@
 #!/bin/bash
-cp /home/centos/mongo.repo /etc/yum.repos.d/mongo.repo
+cp /home/centos/shell/mongo.repo /etc/yum.repos.d/mongo.repo
 yum install mongodb-org -y
 systemctl enable mongod
 systemctl start mongod
